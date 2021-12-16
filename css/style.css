@@ -19,7 +19,7 @@ body{
 nav.top {
     display: flex;
     justify-content: space-between;
-    /* padding: 10px 256px; */
+    padding: 10px 256px;
     background-color: rgb(23, 30, 53);
 }
 nav.top .header_logo span:first-child {
@@ -266,11 +266,11 @@ section.container .contact_wrapper .msg_wrapper .contact_msg .contact_move{
     left: 40px;
     top: -21px;
 }
-/* section.container .contact_wrapper .msg_wrapper .contact_msg .move2{
+section.container .contact_wrapper .msg_wrapper .contact_msg .move2{
     position: relative;
     left: 40px;
     top: -21px;
-} */
+}
 section.container .contact_wrapper .msg_wrapper .contact_msg input{
     background-color: transparent;
     width: 290px;
@@ -337,6 +337,9 @@ footer{
     }
     section.container .contact_wrapper .msg_wrapper .contact_msg {
         width: 580px;
+    }
+    nav.top{
+        padding: 10px 15px;
     }
 }
 @media (max-width:900px){
@@ -433,8 +436,76 @@ section.container .about_us .info ul {
     section.container .profile{
         padding-right: 72px;
     }
-    .container {
-        width: max-content;
+    section.container .contact_wrapper .msg_wrapper .contact_msg {
+        border: 1px solid;
+        width:0;
     }
+}
+@media (max-width:555px){
+    section.container .about_us .detail p {
+        width: 400px;
+        line-height: 1.5;
+    }
+    nav.top{
+        padding: 10px 15px;
+    }
+}
+@media (max-width:480px){
+    nav.top{
+        padding: 10px 15px;
+    }
+    section.container .profile .contact_detai{
+        /* border: 1px solid; */
+        width: 257px;
+        margin-right: 108px;
+    }
+    section.container .contact h4 {
+        width: 300px;
+    }
+    section.container .education_skill .wrapper{
+        width: 370px;
+    }
+    section.about_us .detail h4{
+        width: 300px;
+    }
+    section.container .profile .contact_detail{
+        width: 273px;
+        margin-left: 112px;
+    }
+    section.container .skill .skill_wrapper{
+        width: 292px;
+    }
+}
+@media(max-width:428px){
+    section.container .about_us .detail p{
+        width:360px;
+    }
+}
+@media(max-width:396px){
+    section.container .about_us .detail p{
+        width:320px;
+    }
+    section.container .about_us{
+        width: 361px;
+    }
+    section.container .about_us .detail{
+        width: 358px;
+    }
+}
+@media(max-width:388px){
+    section.container .about_us .detail p{
+        width:320px;
+    }
+    section.container .about_us{
+        width: 347px;
+    }
+    section.container .about_us .info ul{
+        width: 322px;
+    }
+}
+@media(max-width:387px){
+       body{
+           width: fit-content;
+       }
 }
 
