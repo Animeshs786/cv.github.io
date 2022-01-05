@@ -6,6 +6,7 @@
 body{
     background-color: rgb(3, 14, 49);
     color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .container{
     width: 1000px;
@@ -127,7 +128,6 @@ section.container .about_us {
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
-    height: 200px;
 }
 section.container .about_us .detail{
     padding-left: 20px;
@@ -141,7 +141,7 @@ section.container .about_us h4::after{
     content: "";
     background: #f44336;
     height: 2.4px;
-    width: 14%;
+    width: 67px;
     display: block;
     margin: 3px 0;
 
@@ -184,13 +184,14 @@ section.container .education_skill .wrapper{
 }
 section.container .education_skill{
     padding-left: 20px;
+    margin-top: 24px;
 }
 section.container .education_skill h4::after{
     content: "";
     display: block;
     background: #f44336;
     height: 3px;
-    width: 7%;
+    width: 70px;
     margin: 3px 0;
 
 }
@@ -242,7 +243,7 @@ section.container .contact h4::after{
     content: "";
     background: #f44336;
     height: 2.4px;
-    width: 8%;
+    width: 79px;
     display: block;
     margin: 3px 0;
 }
@@ -439,6 +440,11 @@ section.container .about_us .info ul {
     section.container .contact_wrapper .msg_wrapper .contact_msg {
         border: 1px solid;
         width:0;
+    }
+    section.container .profile .contact_detail ul li span a {
+        position: relative;
+        left: 26%;
+        bottom: 19px;
     }
 }
 @media (max-width:555px){
